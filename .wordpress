@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ -n "$1" ]; then
+ name=$1
+else
+ name='Wordpress'
+fi
+
+echo "#################################################" \
+&& wget -O ~/$name.zip http://br.wordpress.org/latest-pt_BR.zip \
+&& unzip ~/$name.zip -d ~/mamp \
+&& rm -rf ~/$name.zip \
+&& mv ~/mamp/wordpress ~/mamp/$name \
+&& git clone https://github.com/mexkiv/malone-press.git ~/mamp/$name/wp-content/themes/$name \
+&& echo "#################################################" \
+&& echo "--> Wordpress downloaded, unziped, ready and MalonePress cloned as $name. o//"

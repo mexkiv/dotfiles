@@ -1,0 +1,9 @@
+[user]
+	name = Jefferson Mexkiv
+	email = jefferson@flize.com.br
+[core]
+	excludesfile = /Users/mexkiv/.gitignore_global
+[push]
+	default = current
+[merge]
+	tool = opendiff
