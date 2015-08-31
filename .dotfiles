@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "#################################################" \
+&& cp ~/.gitignore_global .gitignore \
+&& cp ~/.editorconfig_global .editorconfig \
+&& echo 'Dotfiles copied!'
+
+ls -a
