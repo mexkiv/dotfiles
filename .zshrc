@@ -79,5 +79,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wp="~/.wordpress"
-alias ignore="cp ~/.gitignore_global .gitignore"
+alias dots="cp ~/.gitignore_global .gitignore && cp ~/.editorconfig_global .editorconfig && echo 'Dots copied!'"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
