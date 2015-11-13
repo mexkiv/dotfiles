@@ -11,6 +11,6 @@ echo "#################################################" \
 && unzip ~/$name.zip -d ~/mamp \
 && rm -rf ~/$name.zip \
 && mv ~/mamp/wordpress ~/mamp/$name \
-&& git clone https://github.com/mexkiv/malone-press.git ~/mamp/$name/wp-content/themes/$name \
+&& git clone https://github.com/mexkiv/malonepress.git ~/mamp/$name/wp-content/themes/$name \
 && echo "#################################################" \
-&& echo "--> Wordpress downloaded, unziped, ready and MalonePress cloned as $name. o//"
+&& echo "--> Wordpress downloaded, unziped, ready and Malonepress cloned as $name. o//"
